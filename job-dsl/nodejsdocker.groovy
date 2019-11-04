@@ -16,7 +16,7 @@ job('NodeJS Docker kalpesh') {
         dockerBuildAndPublish {
             repositoryName('kalpesh32/docker-nodejs-demo')
             tag('${GIT_REVISION,length=9}')
-            registryCredentials('kalpesh@99')
+            registryCredentials('kalpesh32')
             forcePull(false)
             forceTag(false)
             createFingerprints(false)

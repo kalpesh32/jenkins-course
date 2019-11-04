@@ -1,4 +1,4 @@
-job('NodeJS Docker kalpesh') {
+job('NodeJS Docker kalpesh-test') {
     scm {
         git('git://github.com/kalpesh32/docker-demo.git') {  node -> // is hudson.plugins.git.GitSCM
             node / gitConfigName('DSL User')
